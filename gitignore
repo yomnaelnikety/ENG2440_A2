@@ -1,0 +1,21 @@
+# ---- Data ----
+Task01_BrainTumour/
+*.tar
+*.nii
+*.nii.gz
+cache_preproc/
+*.npy
+*.npz
+
+# ---- Large files ----
+runs/**/last.pt
+runs_p64/**/last.pt
+runs/smoke/
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- OS ----
+.DS_Store

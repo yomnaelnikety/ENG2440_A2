@@ -1,0 +1,15 @@
+AI Use Declaration
+ENG2440 Medical Imaging & AI in Healthcare Assignment 2: Tumour Segmentation in MRI Volumes
+
+Student: Yomna Elnikety
+Student ID: 25011181
+
+AI tool used: Claude
+
+How the tool was used
+1. Planning: discussing the structure of the assignment, the order of the pipeline, and comparisons of general performance of different samplers and models.
+2. Code: Debugging issues with array dimensions, addressing gradient instability due to lack of smoothing factor, assistance with understanding sliding window maths and implementation.
+3. Cluster setup: troubleshooting the connection to the university HPC cluster and the CUDA environment.
+4. Writing: Reformatting README, gitignore, ai_use_declaration and spell-checking report.
+
+AI did not have access to the full notebook, medical data or output files.
