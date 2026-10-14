@@ -1,0 +1,52 @@
+{
+  "cfg": {
+    "sampler": "tumour",
+    "p_tumour": 0.5,
+    "patch_size": [
+      64,
+      64,
+      64
+    ],
+    "batch_size": 6,
+    "iters": 5000,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "val_every": 500,
+    "log_every": 25,
+    "num_workers": 8,
+    "seed": 42,
+    "deterministic": true,
+    "amp": true,
+    "base_filters": 16,
+    "depth": 4,
+    "cache_root": "cache_preproc",
+    "out_dir": "runs_p64/tumour",
+    "max_val_cases": null,
+    "val_overlap": 0.0,
+    "val_batch_size": 4
+  },
+  "sampler": "tumour",
+  "params": 1445681,
+  "init_hash": "6cf75eb4726b90ace03b5e75b8cc17a9",
+  "loss": "BCE-with-logits + (1 - soft Dice)",
+  "optimizer": "AdamW, cosine decay to 1% of the peak learning rate",
+  "lr": 0.001,
+  "iters": 5000,
+  "batch_size": 6,
+  "patches_seen": 30000,
+  "patch_size": [
+    64,
+    64,
+    64
+  ],
+  "seed": 42,
+  "best_iter": 5000,
+  "best_val_dice": 0.8529122709593709,
+  "tumour_patch_frac_train": 0.8587666666666667,
+  "minutes": 4.445598045984904,
+  "device": "cuda",
+  "gpu": "NVIDIA RTX 5000 Ada Generation",
+  "max_gpu_mem_gb": 1.065481216,
+  "torch": "2.11.0+cu128",
+  "python": "3.11.17"
+}

@@ -1,0 +1,10 @@
+{
+  "final_sampler": "uniform",
+  "patch_size": [
+    96,
+    96,
+    96
+  ],
+  "checkpoint": "runs/uniform/best.pt",
+  "criterion": "highest mean validation Dice at the best checkpoint, over all four runs"
+}
