@@ -14,7 +14,7 @@ Student: Yomna Elnikety (25011181) – report: `YomnaElnikety_25011181_ENG2440_A
 | `runs/`, `runs_p64/` | Training logs (`history.csv`, `train_log.csv`, `summary.json`), best checkpoints (`best.pt`) and test result tables for the $96^3$ and $64^3$ experiments |
 | `ai_use_declaration.txt` | Declaration of AI assistance |
 
-**Not included:** the MRI data, extracted patches, the preprocessed cache (`cache_preproc/`, about 15–20 GB)
+**Not included:** the MRI data, extracted patches, the preprocessed cache 'cache_preproc'
 and the `last.pt` checkpoints. See `.gitignore`.
 
 ## Setup
