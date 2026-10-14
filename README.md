@@ -26,7 +26,7 @@ and the `last.pt` checkpoints. See `.gitignore`.
    python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
    ```
    The environment used for the reported results: Python 3.11.17, PyTorch 2.11.0+cu128, NumPy 2.4.6, nibabel 5.4.2.
-2. Download `Task01_BrainTumour.tar` (about 7.6 GB)
+2. Download `Task01_BrainTumour.tar`
    (`https://msd-for-monai.s3-us-west-2.amazonaws.com/Task01_BrainTumour.tar`) and extract it:
    ```bash
    tar -xf Task01_BrainTumour.tar
@@ -82,4 +82,4 @@ analysis are in the report.
 
 ## AI use
 
-See `AI_USE_DECLARATION.md`.
+See `ai_use_declaration.txt`.
